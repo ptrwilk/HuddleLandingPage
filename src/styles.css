@@ -1,6 +1,18 @@
+@import url('./colors.css');
+
 .app{
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
+    min-height: 100vh;
+    background: var(--violet) url('./assets/bg-mobile.svg');
+    background-size: cover;
+    background-position: top;
+}
+
+@media (min-width : 900px){
+    .app{
+        background: var(--violet) url('./assets/bg-desktop.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
 }
