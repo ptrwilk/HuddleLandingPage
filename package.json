@@ -1,6 +1,6 @@
 {
-  "homepage": "https://ptrwilk.github.io/HuddleLandingPageWithSingleIntroductorySection",
-  "name": "huddle-landing-page-with-single-introductory-section",
+  "homepage": "https://ptrwilk.github.io/HuddleLandingPage",
+  "name": "huddle-landing-page",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
